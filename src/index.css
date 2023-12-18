@@ -9,11 +9,22 @@
 }
 
 html {
+    background: url(./assets/bac.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
     font-size: 100%;
     scroll-padding-top: 0px;
 }
 
-.sidebar {
-    transition: .4s;
-    z-index: 9999;
+.navbar:hover {
+    color: #e82014;
+}
+
+.menu {
+    border: 1px solid #333333;
+}
+
+.menu:hover {
+    border: 1px solid #e82014;
 }
