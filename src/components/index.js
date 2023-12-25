@@ -1,5 +1,5 @@
 import About from "./About";
-import Contact from "./Contact";
+import Map from "./Map";
 import Events from "./Events";
 import Main from "./Main";
 import Menu from "./Menu";
@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 export {
     About,
-    Contact,
+    Map,
     Events,
     Main,
     Menu,

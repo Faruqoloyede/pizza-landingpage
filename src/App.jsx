@@ -1,6 +1,6 @@
 import styles from "./style";
-import { About, Contact, Events, Main, Menu, Navbar, Footer,} from "./components"
-import Map from "./components/Map";
+import { About, Map, Events, Main, Menu, Navbar, Footer,} from "./components"
+
 function App() {
   return (
     <div className="w-full overflow-hidden">

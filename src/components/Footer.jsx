@@ -6,8 +6,8 @@ import { footerlink } from '../constant'
 const Footer = () => {
   return (
     <section id='footer' className={`${styles.paddingX} ${styles.paddingY} flex-col`}>
-      <div className={`${styles.flexStart} md:flex-row  flex-col mb-8 w-full`}>
-        <div className='flex flex-col flex-1 mr-10 justify-start'>
+      <div className={`flex items-start flex-1 justify-between md:flex-row  flex-col mb-8 w-full`}>
+        <div className='flex flex-col  mr-10 justify-start'>
           <img src={footer} className='w-[200px] h-[72px] object-contain' />
           <div className='flex flex-row md:mt-3 mt-6'>
           {socialmedia.map((social)=>(
@@ -19,7 +19,7 @@ const Footer = () => {
           ))}
           </div>
         </div>
-        <div className='flex flex-[1.5] md:flex-row flex-col w-full justify-between md:mt-0 mt-10'>
+        <div className='flex  md:flex-row flex-col w-full justify-between md:mt-0 mt-10'>
             {footerlink.map((footerlink)=>(
               <div key={footerlink.key} className='flex flex-col ss:my-0 my-4 min-w-[150px]'>
                 <h4 className='font-poppins text-white text-[18px] font-bold leading-[27px]'>{footerlink.title}</h4>
