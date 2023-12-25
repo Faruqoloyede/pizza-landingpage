@@ -1,5 +1,6 @@
 import styles from "./style";
 import { About, Contact, Events, Main, Menu, Navbar, Footer,} from "./components"
+import Map from "./components/Map";
 function App() {
   return (
     <div className="w-full overflow-hidden">
@@ -19,6 +20,7 @@ function App() {
         <Menu />
         <About />
         <Events />
+        <Map />
         </div>
       </div>
       <div className={`bg-footer ${styles.flexStart}`}>
